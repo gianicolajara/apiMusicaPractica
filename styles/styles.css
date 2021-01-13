@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.list-search {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.artist-option {
+  display: flex;
+
+  transition: 0.3s all ease;
+}
+
+.name-artist {
+  flex: 1;
+}
+
+.artist-option:hover {
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+
+.artist-option img {
+  max-width: 75px;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.d-none {
+  display: none;
+}
